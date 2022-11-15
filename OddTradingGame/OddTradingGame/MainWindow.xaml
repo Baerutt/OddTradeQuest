@@ -9,8 +9,8 @@
     <Grid>
         <Rectangle x:Name="PurpleBox1" HorizontalAlignment="Left" Height="434" Stroke="#FF892EFB" VerticalAlignment="Center" Width="188" Fill="#FF892EFB"/>
         <Rectangle x:Name="PurpleBox2" HorizontalAlignment="Left" Height="78" Margin="166,356,0,0" Stroke="#FF892EFB" VerticalAlignment="Top" Width="634" Fill="#FF892EFB"/>
-        <Frame x:Name="ContentFrame" Content="Frame" HorizontalAlignment="Left" Height="356" Margin="188,0,0,0" VerticalAlignment="Top" Width="612"/>
-        <ComboBox x:Name="LocationBox" HorizontalAlignment="Left" Margin="34,281,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="LocationBox_SelectionChanged">
+        <Frame x:Name="ContentFrame" Content="Frame" HorizontalAlignment="Left" Height="356" Margin="188,0,0,0" VerticalAlignment="Top" Width="612" NavigationUIVisibility="Hidden"/>
+        <ComboBox x:Name="LocationBox" HorizontalAlignment="Left" Margin="34,281,0,0" VerticalAlignment="Top" Width="120" DropDownClosed="LocationBox_DropDownClosed">
             <ComboBoxItem x:Name="Forest" Content="Forest" Tag="0"/>
             <ComboBoxItem x:Name="Village" Content="Village" Tag="1"/>
             <ComboBoxItem x:Name="Pharmacy" Content="Pharmacy" Tag="2"/>

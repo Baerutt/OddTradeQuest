@@ -42,11 +42,18 @@ namespace OddTradingGame
 
         private void LocationBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if(LocationBox.Text == "Forest")
+         
+
+        }
+
+
+        private void LocationBox_DropDownClosed(object sender, EventArgs e)
+        {
+            if (LocationBox.Text == "Forest")
             {
                 ContentFrame.Navigate(new Forest1());
             }
-            else if(LocationBox.Text == "Village")
+            else if (LocationBox.Text == "Village")
             {
                 ContentFrame.Navigate(new Village1());
 
@@ -70,7 +77,6 @@ namespace OddTradingGame
             {
                 ContentFrame.Navigate(new Forest1());
             }
-
         }
     }
 }
