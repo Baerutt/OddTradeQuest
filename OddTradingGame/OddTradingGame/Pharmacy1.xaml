@@ -9,7 +9,13 @@
       Title="Pharmacy1">
 
     <Grid>
-        <Label x:Name="PharmacyLabel" Content="This is the Pharmacy&#xD;&#xA;" HorizontalAlignment="Left" Margin="351,177,0,0" VerticalAlignment="Top" Height="48" Width="210"/>
+        <Image x:Name="PharmacyImage" HorizontalAlignment="Center" Height="450" VerticalAlignment="Center" Width="800" Source="/Pharmacy.jpg" Stretch="Fill"/>
+
+        <Image x:Name="GrannyNPC" HorizontalAlignment="Left" Height="274" Margin="278,57,0,0" VerticalAlignment="Top" Width="211" Stretch="Fill" Source="/Granny.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/Granny.png" TileMode="Tile"/>
+            </Image.OpacityMask>
+        </Image>
 
     </Grid>
 </Page>

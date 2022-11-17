@@ -23,10 +23,8 @@ C:\Users\Barrett\Desktop\GitGud\OddTradeQuest\OddTradingGame\OddTradingGame\obj\
 C:\Users\Barrett\Desktop\GitGud\OddTradeQuest\OddTradingGame\OddTradingGame\obj\Debug\net5.0-windows\Desert1.g.cs
 C:\Users\Barrett\Desktop\GitGud\OddTradeQuest\OddTradingGame\OddTradingGame\obj\Debug\net5.0-windows\Forest1.g.cs
 C:\Users\Barrett\Desktop\GitGud\OddTradeQuest\OddTradingGame\OddTradingGame\obj\Debug\net5.0-windows\Mountain1.g.cs
-C:\Users\Barrett\Desktop\GitGud\OddTradeQuest\OddTradingGame\OddTradingGame\obj\Debug\net5.0-windows\Pharmacy1.g.cs
 C:\Users\Barrett\Desktop\GitGud\OddTradeQuest\OddTradingGame\OddTradingGame\obj\Debug\net5.0-windows\Village1.g.cs
 C:\Users\Barrett\Desktop\GitGud\OddTradeQuest\OddTradingGame\OddTradingGame\obj\Debug\net5.0-windows\Desert1.baml
 C:\Users\Barrett\Desktop\GitGud\OddTradeQuest\OddTradingGame\OddTradingGame\obj\Debug\net5.0-windows\Forest1.baml
 C:\Users\Barrett\Desktop\GitGud\OddTradeQuest\OddTradingGame\OddTradingGame\obj\Debug\net5.0-windows\Mountain1.baml
-C:\Users\Barrett\Desktop\GitGud\OddTradeQuest\OddTradingGame\OddTradingGame\obj\Debug\net5.0-windows\Pharmacy1.baml
 C:\Users\Barrett\Desktop\GitGud\OddTradeQuest\OddTradingGame\OddTradingGame\obj\Debug\net5.0-windows\Village1.baml

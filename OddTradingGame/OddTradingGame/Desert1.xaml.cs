@@ -22,7 +22,12 @@ namespace OddTradingGame
     {
         public Desert1()
         {
-            InitializeComponent();
+            {
+                InitializeComponent();
+                NPC craftsman = new NPC("Craftsman", "I would love to start working, but I seem to missing my saw.\nDo you have it?", new Item("Broken Sword", 6), new Uri("Resources/Craftsman.png", UriKind.Relative));
+
+            }
         }
     }
 }
+

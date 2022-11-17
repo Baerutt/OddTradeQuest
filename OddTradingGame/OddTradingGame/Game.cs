@@ -8,6 +8,6 @@ namespace OddTradingGame
 {
     public class Game
     {
-
+        Player protag = new Player();
     }
 }

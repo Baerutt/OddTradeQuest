@@ -11,5 +11,16 @@ namespace OddTradingGame
         public string name;
         public List<Item> inventory = new List<Item>();
         //Item collectable;
+
+        public Player()
+        {
+
+        }
+
+        public Player(string thisName, List<Item> stuff)
+        {
+            name = thisName;
+            inventory = stuff;
+        }
     }
 }

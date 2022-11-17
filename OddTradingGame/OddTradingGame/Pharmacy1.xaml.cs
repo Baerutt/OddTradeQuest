@@ -22,7 +22,11 @@ namespace OddTradingGame
     {
         public Pharmacy1()
         {
-            InitializeComponent();
+           
+            NPC Granny1 = new NPC("Granny", "If only I had something to make a potion with... Then I'd be happy\nIf you give me that item, I might be able to cook something for you", new Item("Odd Potluck", 4), new Uri("Resources/Granny.png", UriKind.Relative));
+            NPC Granny2 = new NPC("Granny", "I have a patient that's coming soon\nI'll just need his prescription and I'll be all set to hand this off", new Item("World's Biggest Eyedrops", 8), new Uri("Resources/Granny.png", UriKind.Relative));
+
         }
+
     }
 }

@@ -23,6 +23,11 @@ namespace OddTradingGame
         public Village1()
         {
             InitializeComponent();
+            NPC CuccooLady = new NPC("Cuccoo Lady", "Oh no! I've lost my White Chick... \nI'll give you something in return if you can\nfind him and bring him back!", new Item("Smurf Chick", 2), new Uri("Resources/CuccoLady.png", UriKind.Relative));
+
+
         }
+
+
     }
 }

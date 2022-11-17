@@ -9,7 +9,6 @@
       Title="Mountain1">
 
     <Grid>
-        <Label x:Name="MountainLabel" Content="This is the mountain" HorizontalAlignment="Left" Margin="362,164,0,0" VerticalAlignment="Top" Height="46" Width="194"/>
-
+        
     </Grid>
 </Page>

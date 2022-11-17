@@ -23,6 +23,10 @@ namespace OddTradingGame
         public Mountain1()
         {
             InitializeComponent();
+
+            NPC Biggoron1 = new NPC("Biggoron", "Im the world's best swordsmith. I'd love to fix something, but I need something to fix first", new Item("Prescription", 7), new Uri("Resources / Biggoron.png", UriKind.Relative));
+            NPC Biggoron2 = new NPC("Biggoron", "I need my eyedrops to fix anything.\nSo, did you bring my eyedrops back yet?", new Item("Stabby Stab", 9), new Uri("Resources/Biggoron.png", UriKind.Relative));
+
         }
     }
 }

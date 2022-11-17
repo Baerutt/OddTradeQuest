@@ -9,7 +9,9 @@
       Title="Desert1">
 
     <Grid>
-        <Label x:Name="DesertLAbel" Content="This is a desert" HorizontalAlignment="Left" Height="131" Margin="296,173,0,0" VerticalAlignment="Top" Width="378"/>
+        <Image x:Name="DesertImage" HorizontalAlignment="Center" Height="450" VerticalAlignment="Center" Width="800" Stretch="Fill" Source="/Desert.jpg"/>
+        <Image x:Name="CraftsmanImage" HorizontalAlignment="Center" Height="169" Margin="0,225,0,0" VerticalAlignment="Top" Width="100" Source="/Craftsman.png" Stretch="Fill"/>
+        <Image x:Name="CuccooImage" HorizontalAlignment="Left" Height="50" Margin="56,310,0,0" VerticalAlignment="Top" Width="50" Stretch="Fill" Source="/WhiteChick.png" RenderTransformOrigin="-0.028,0.34"/>
 
     </Grid>
 </Page>

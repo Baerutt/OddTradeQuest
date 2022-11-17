@@ -10,5 +10,15 @@ namespace OddTradingGame
     {
         public string name;
         public int ID;
+
+        public Item()
+        {
+
+        }
+        public Item(string thisName, int thisID)
+        {
+            name = thisName;
+            ID = thisID;
+        }
     }
 }

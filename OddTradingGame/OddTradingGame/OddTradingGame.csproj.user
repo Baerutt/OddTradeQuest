@@ -7,9 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Desert1.xaml.cs">
+    <Resource Update="Desert1.xaml.cs">
       <SubType>Code</SubType>
-    </Compile>
+    </Resource>
     <Compile Update="Forest1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -19,9 +19,9 @@
     <Compile Update="Pharmacy1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Village1.xaml.cs">
+    <Resource Update="Village1.xaml.cs">
       <SubType>Code</SubType>
-    </Compile>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Desert1.xaml">
@@ -36,9 +36,9 @@
     <Page Update="Mountain1.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Pharmacy1.xaml">
+    <Resource Update="Pharmacy1.xaml">
       <SubType>Designer</SubType>
-    </Page>
+    </Resource>
     <Page Update="Village1.xaml">
       <SubType>Designer</SubType>
     </Page>

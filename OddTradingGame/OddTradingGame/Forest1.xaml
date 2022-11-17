@@ -9,7 +9,7 @@
       Title="Forest1">
 
     <Grid>
-        <Label x:Name="ForestLabel" Content="This is the forest" HorizontalAlignment="Left" Margin="362,207,0,0" VerticalAlignment="Top" Height="45" Width="197"/>
+        <Image x:Name="ForestImage" HorizontalAlignment="Center" Height="450" VerticalAlignment="Center" Width="800" Stretch="Fill" Source="/Forest.jpg"/>
 
     </Grid>
 </Page>

@@ -9,7 +9,9 @@
       Title="Village1">
 
     <Grid>
-        <Label x:Name="VillageLabel" Content="This is the Village" HorizontalAlignment="Left" Margin="310,172,0,0" VerticalAlignment="Top" Height="76" Width="236"/>
+        <Image x:Name="VillageImage" HorizontalAlignment="Left" Height="440" Margin="10,10,0,0" VerticalAlignment="Top" Width="790" Source="/Village.jpg" Stretch="Fill"/>
+
+        <Image x:Name="VillageNPC" HorizontalAlignment="Left" Height="205" Margin="425,245,0,0" VerticalAlignment="Top" Width="60" Source="/CuccoLady.png" Stretch="Fill"/>
 
     </Grid>
 </Page>
